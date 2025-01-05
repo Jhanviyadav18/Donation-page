@@ -1,0 +1,88 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #f4f4f4;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #004aad; /* Cool blue color */
+    padding: 15px 20px;
+    text-align: center;
+  }
+  
+  .navbar h1 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Hero Section */
+  .hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(90deg, #004aad, #008cdb);
+    color: white;
+  }
+  
+  .hero-content {
+    text-align: center;
+    z-index: 2;
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #donateButton {
+    background-color: #ff9800;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    animation: moveButton 4s linear infinite;
+  }
+  
+  #donateButton:hover {
+    background-color: #ff7800;
+  }
+  
+  /* Button Animation */
+  @keyframes moveButton {
+    0% {
+      transform: translateX(-100%);
+    }
+    50% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #003366;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+  
